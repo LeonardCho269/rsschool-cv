@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Leonard</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navlist">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#code">Code</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="home" id="home">
+      <div class="home-text">
+        <h5>Hello guys!</h5>
+        <h1>I'm Leonard Cho, Frontend Developer</h1>
+        <p>Beginner programmer, actively studying Frontend development.</p>
+        <a href="#" class="btn"><i class='bx bx-phone'></i>Call me!</a>
+      </div>
+      <div class="home-img">
+        <img src="/assets/img/me.jpg" alt="My photo">
+      </div>
+    </section>
+      <!----start home section---->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="/assets/img/me-2.jpg" alt="">
+      </div>
+      <div class="about-text">
+        <span>About Me</span>
+        <h2>Working with passion</h2>
+        <p>My name is Leonard. I love programming, that's why I'm taking frontend development courses at RS School. Lately I've been trying hard to get to the next level as much as possible.</p>
+      </div>
+    </section>
+    <section class="skill" id="skills">
+      <div class="heading">
+        <span>Skills</span>
+        <h2>My Skills</h2>
+      </div>
+      <div class="skills-container">
+        <div class="row">
+          <i class='bx bxl-html5' ></i>
+          <h3>HTML5</h3>
+          <p>Completed HTML5 course on HTMLBasics.</p>
+        </div>
+        <div class="row">
+          <i class='bx bxl-css3' ></i>
+          <h3>CSS3</h3>
+          <p>Completed CSS3 course on HTMLBasics.</p>
+        </div>
+        <div class="row">
+          <i class='bx bxl-javascript' ></i>
+          <h3>Javascript</h3>
+          <p>I'm actively preparing to learn JavaScript.</p>
+        </div>
+      </div>
+    </section>
+    <section class="code" id="code">
+      <div class="heading">
+        <span>Code</span>
+        <h2>My code example</h2>
+      </div>
+      <div class="code-container">
+          <code>
+            <p>
+              <code>
+                <pre>
+              function checkParent (src, dest) {<Br>
+               while (src != null) {<Br>
+                 if (src.tagName == dest) return src<Br>
+                  src = src.parentElement<Br>
+               }<Br>
+               return null<Br>
+              }</pre>
+              </code>
+            </p>
+      </div>
+    </section>
+    <section class="contact" id="contact"></section>
+    <div class="heading">
+      <span>Contact Me</span>
+      <h2>I'm always open to discussion time spend</h2>
+    </div>
+    <div class="contact-container">
+      <div class="con-box">
+        <div class="icon">
+          <i class='bx bxs-phone-call' ></i>
+        </div>
+        <h3>Phone</h3>
+        <h6>+998 90 005 65 56</h6>
+        <h5>+998 99 363 63 23</h5>
+      </div>
+      <div class="con-box">
+        <div class="icon">
+          <i class='bx bx-envelope' ></i>
+        </div>
+        <h3>Email</h3>
+        <h6>leonardcho69@gmail.com</h6>
+        <h5>mc.grizzly94@gmail.com</h5>
+      </div>
+      <div class="con-box">
+        <div class="icon">
+          <i class='bx bx-current-location' ></i>
+        </div>
+        <h3>Location</h3>
+        <h6>Yakkasaray District</h6>
+        <h5>Tashkent, Uzbekistan</h5>
+      </div>
+    </div>
+    </main>
+    <footer class="footer">
+      <p>Made by Leonard Cho</p>
+      <div class="container-footer">
+        <a href="https://github.com/LeonardCho269/">
+          <img src="/assets/img/GitHub-logo.png" alt="My GitHub" class="img-logo">
+        </a>
+        <a href="https://rs.school/">
+          <img src="/assets/img/logo-rs.svg" alt="Rolling Scopes School" class="img-logo">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
